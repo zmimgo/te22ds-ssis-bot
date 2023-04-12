@@ -4,7 +4,6 @@ import logging, nextcord, os
 from logging.handlers import RotatingFileHandler
 from nextcord.ext import commands  # Import command handler
 from bot_commands import (
-    clubs,
     predefined_messages,
     menu,
     general,
@@ -12,7 +11,6 @@ from bot_commands import (
     message_subscriptions,
     schedules,
     good_morning,
-    seasonal_profile_pictures,
 )  # Import bot commands
 from utils.general import LOGGING_DIRECTORY, LOGGING_HANDLER_FILEPATH
 
