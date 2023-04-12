@@ -3,6 +3,8 @@ This git is for the TE22D SSIS-Bot, not for the official SSIS-Bot. All credit go
 My intention is to make this avaliable to everyone in TE22D and play with it however they want to (although I do not know how to set restrictions on who can commit to the git, or is commit even the right word? idk man), such as adding uhh idk, features, up to them
 This should be treated more as an experiment for now, but I do wish that this can be a long term project by the class.
 
+Also: some features are stripped out (such as clubs, and seasonal pfps) since they don't really serve a purpose
+
 # SSIS-related Discord Bot
 
 (SSIS=Stockholm Science & Innovation School)
