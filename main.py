@@ -43,7 +43,6 @@ intents = (
 bot = commands.Bot(command_prefix="ssisb ", intents=intents)
 logger.info("Adding cogs...")
 cogs = [
-    clubs.Clubs,
     predefined_messages.PredefinedMessages,
     menu.Menu,
     general.General,
@@ -51,7 +50,6 @@ cogs = [
     # message_subscriptions.SubscribedMessagesSubscription,
     # schedules.Schedules,
     good_morning.GoodMorning,
-    seasonal_profile_pictures.SeasonalProfilePictures,
 ]
 i = 1
 for cog in cogs:  # Add every cog
