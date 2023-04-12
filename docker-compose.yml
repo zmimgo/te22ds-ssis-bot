@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  bot:
+    build: .
+    volumes:
+      - bot_data:/ssis_bot_data
+    env_file:
+      - .env
+volumes:
+  bot_data:
