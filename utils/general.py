@@ -116,7 +116,7 @@ BOT_GENERAL_STATUSES = [
         "text": "massa elever som lånar böcker i biblioteket",
     },
 ]
-MAIN_SERVER_ID = 746412815048376371  # Server to retrieve members from. The bot is intended to be used on one single server and therefore this is hard coded.
+MAIN_SERVER_ID = 1009034860259709038 # Server to retrieve members from. The bot is intended to be used on one single server and therefore this is hard coded.
 # JSON-related functions
 def get_json(filepath):
     """Retrieves JSON from a certain filepath."""
