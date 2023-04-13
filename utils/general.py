@@ -111,6 +111,11 @@ BOT_GENERAL_STATUSES = [
     {"type": ActivityType.listening, "text": "God morgon-meddelanden"},
     {"type": ActivityType.playing, "text": "Othello för mig själv i biblioteket"},
     {"type": ActivityType.playing, "text": "Othello med en kompis"},
+    {"type": ActivityType.playing, "text": ":sveijer_kappa:"},
+    {"type": ActivityType.playing, "text": "Jag vill inte bli arg på er. Jag gillar er jättemycket -Kristin"},
+    {"type": ActivityType.playing, "text": "''Semen' - Tomas, lovar han sa det' -Pontus 1/9-2022"},
+    {"type": ActivityType.playing, "text": "Pontus du är som en slak penis, du är helt värdelös och bara läcker piss - David L"},
+    {"type": ActivityType.playing, "text": "Sten, sten. Det är vad jag är. Stenen jag är, den är jag. Jag är här, jag är sten. Stenen som sitter här, stenen här. Stenen här är den jag är. Vad gör sten? Jag gör inte. Inte är vad jag gör. Sten den inte, inte är vad sten gör. Jag och sten. Vi är sten. Sten har alltid varit, jag har alltid förblir. Jag har alltid varit, sten det alltid förblir.  Jag, sten. Vi har alltid vara. Vi kommer för alltid förbli. -Pontus 23/8-2022"},
     {
         "type": ActivityType.listening,
         "text": "massa elever som lånar böcker i biblioteket",
