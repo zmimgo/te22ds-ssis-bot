@@ -135,7 +135,7 @@ def check_is_good_morning_message(message: Message, bot_user_id: int):
     good_morning_data = get_good_morning_data()
     now = get_now()
     today_date = str(now.date())
-    is_morning = 6 <= now.hour <= 11
+    is_morning = 6 <= now.hour <= 15
     good_morning_channel_id = good_morning_data["message_channel_id"]
     is_general_channel = message.channel.id == good_morning_channel_id
     if not message.author.bot and message.author.id != bot_user_id:
@@ -147,7 +147,6 @@ def check_is_good_morning_message(message: Message, bot_user_id: int):
                 ACTION_REACT
                 if good_morning_data["message_sent_at"] == today_date
                 or not is_morning
-                or not is_general_channel
                 else ACTION_SEND_MESSAGE
             )
             logger.info(
