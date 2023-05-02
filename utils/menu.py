@@ -42,7 +42,7 @@ async def get_eatery_menu(menu_id=None, week=None):
             logger.info(
                 f"Week and menu ID specified for menu request. Requesting menu {menu_id} for week {week}"
             )
-            url = f"https://lunchmeny.albins.website/api/{menu_id}/{week}"  # Get menu fluid_data for a custom week.
+            url = f"https://lunchmeny.albins.website/api/"  # Get menu fluid_data for this week
         else:
             logger.info(
                 "Week and menu ID not specified for menu. Requesting latest available menu..."
