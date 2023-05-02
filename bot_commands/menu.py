@@ -135,6 +135,7 @@ class Menu(Cog):
             or week_message_sent_at.isocalendar()[1] != current_week
         ):
             logger.info("Sending new week message...")
+            week_message = await information_channel.send(embed=final_message)
             saved_menu_data["menu_information_message_ids"]["week"] = week_message.id
             saved_menu_data["week_message_sent_at"] = time.time()
         else:
@@ -152,6 +153,7 @@ class Menu(Cog):
         # And there's also a "today" message that should be sent once a day
         # Retrieve current day
         current_day_name = get_current_day_name()
+        logger.info(f"It is {current_day_name} today. Checking for meny fluid_data...")
         final_day_message = Embed(
             title=f"🍽 Dagens meny ({get_now().strftime('%d/%m-%Y')})",
             description="Här hittar du maten för idag.",
