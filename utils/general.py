@@ -88,8 +88,10 @@ BASE_TIMEZONE = "Europe/Stockholm"  # Base timezone for the bot
 BOT_GENERAL_STATUSES = [
     {"type": ActivityType.listening, "text": "Davids serverdatorer som spinner..."},
     {"type": ActivityType.playing, "text": "schack med några treor"},
+    {"type": ActivityType.playing, "text": "Genshin Impact med Hansel"},
     {"type": ActivityType.playing, "text": "SSIS Bot | Lyssnar på kommandon"},
     {"type": ActivityType.listening, "text": "kaffemaskinen som gör kaffe"},
+    {"type": ActivityType.listening, "text": "på musik med GamerOne"},
     {"type": ActivityType.watching, "text": "3D-skrivarna i Dalek"},
     {"type": ActivityType.watching, "text": "ettor och nollor"},
     {"type": ActivityType.listening, "text": "kommandon"},
