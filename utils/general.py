@@ -98,7 +98,7 @@ BOT_GENERAL_STATUSES = [
     {"type": ActivityType.watching, "text": "videor med Christian"},
     {"type": ActivityType.watching, "text": "Anton H göra någon ritning"},
     {"type": ActivityType.watching, "text": "Dominic få guzzar"},
-    {"type": ActivityType.watching, "text": "Elias C med pistoler"},
+    {"type": ActivityType.watching, "text": "Elias C i luften"},
     {"type": ActivityType.watching, "text": "Eray långt ifrån"},
     {"type": ActivityType.listening, "text": "Erik överifrån"},
     {"type": ActivityType.listening, "text": "Filip underifrån"},
