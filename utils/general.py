@@ -89,7 +89,7 @@ BOT_GENERAL_STATUSES = [
     {"type": ActivityType.playing, "text": "piano med Hansel"},
     {"type": ActivityType.listening, "text": "musik med Abdi"},
     {"type": ActivityType.playing, "text": "Nintendo-spel med Alex R"},
-    {"type": ActivityType.playing, "text": "spel med Alex N"},
+    {"type": ActivityType.playing, "text": "Valorant med Alex N"},
     {"type": ActivityType.watching, "text": "matteböcker dansa med Alexander"},
     {"type": ActivityType.listening, "text": "hårdrock med Anton S"},
     {"type": ActivityType.watching, "text": "Omegle med Mouhammed-Ali"},
