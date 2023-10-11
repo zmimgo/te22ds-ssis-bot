@@ -117,7 +117,7 @@ BOT_GENERAL_STATUSES = [
     {"type": ActivityType.playing, "text": "gitarr med Theodor"},
     {"type": ActivityType.watching, "text": "Thisbe rita"},
     {"type": ActivityType.watching, "text": "Jimmy på gymmet med Elias DL"},
-    {"type": ActivityType.watching, "text": "Zonglin spela Phigros"},
+    {"type": ActivityType.watching, "text": "Zonglin spela Arcaea"},
     {
         "type": ActivityType.playing,
         "text": "SSIS Bot | https://github.com/zmimgo/te22ds-ssis-bot",
