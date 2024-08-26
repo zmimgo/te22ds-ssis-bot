@@ -86,7 +86,7 @@ LOGGING_HANDLER_FILEPATH = os.path.join(LOGGING_DIRECTORY, "log.log")
 # Other constants
 BASE_TIMEZONE = "Europe/Stockholm"  # Base timezone for the bot
 BOT_GENERAL_STATUSES = [
-    {"type": ActivityType.playing, "text": "piano med Hansel"},
+    /*{"type": ActivityType.playing, "text": "piano med Hansel"},
     {"type": ActivityType.listening, "text": "musik med Abdi"},
     {"type": ActivityType.playing, "text": "Nintendo-spel med Alex R"},
     {"type": ActivityType.playing, "text": "Valorant med Alex N"},
@@ -129,7 +129,8 @@ BOT_GENERAL_STATUSES = [
     {
         "type": ActivityType.listening,
         "text": "massa elever som lånar böcker i biblioteket",
-    },
+    },*/
+    {"type": ActivityType.watching, "text": "er göra UF. Lycka till!"}
 ]
 MAIN_SERVER_ID = 1009034860259709038 # Server to retrieve members from. The bot is intended to be used on one single server and therefore this is hard coded.
 # JSON-related functions
